@@ -1,11 +1,13 @@
 import './App.css';
-import NavComponent from './components/navComponent/NavComponent';
 import './assets/css/style.css';
+import AboutPage from './pages/AboutPage';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className='bg p-0'>
-      <NavComponent/>
+      {/* <HomePage/> */}
+      <AboutPage/>
     </div>
   );
 }

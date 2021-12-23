@@ -1,36 +1,47 @@
-/* body, html {
-    height: 100%;
-} */
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .navPosition{
-    height: 100vh;
-    width: 15rem;
-    /* box-shadow: 0 0 0 2px rgba(128, 0, 0, 0.1); */
-    background-color: rgb(0 ,0 ,0);
+    background-color: #286BC0 !important;
+}
+
+.navSideBorder{
+    border-left: 1px solid white;
+}
+
+.navTitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2rem !important;
 }
 
 .navName{
     text-decoration: none;
     color: white !important;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    border-bottom: 2px solid rgb(0 ,0 ,0);
+    padding: 15px 30px 15px 30px !important;
 }
 
 .navName:hover{
     text-decoration: none;
     color: rgb(143, 0, 0) !important;
-    /* font-family: 'Ubuntu', sans-serif;
-    font-size: 1.7rem;
-    font-weight: 400; */
-    border-bottom: 2px solid rgba(37, 35, 35, 0.8);
+    background-color: #6da4f2 !important;
+    transition: background-color 500ms linear;
+    
 }
 
 .navIcon{
     font-size: 1.4rem;
     font-weight: 100;
     color: rgb(145, 145, 145);
+}
+
+.vavDisplay{
+    visibility: hidden;
 }
 
 .bg {
@@ -40,4 +51,98 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
+
+.homeImg{
+    height: 70vh;
+    width: 100%;
+}
+
+.proImgButton{
+    height: 10vh;
+    width: 100%;
+    background-color: #286BC0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.proImgButton:hover{
+    background-color: #6da4f2 !important;
+    color: rgb(143, 0, 0) !important;
+    border: none !important;
+    transition: background-color 500ms linear;
+}
+
+.homeDetails{
+    margin-top: 10rem !important;
+}
+
+.homeSubTitle{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+
+.homeTitle{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.aboutTitle{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.aboutParagraph{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.aboutDownload{
+    text-decoration: none !important;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #286BC0 !important;
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+.aboutDownload:hover{
+    text-decoration: none !important;
+    color: white !important;
+    background-color: #6da4f2 !important;
+    transition: background-color 400ms linear;
+}
+
+.aboutLink{
+    margin-right: 1rem;
+    text-decoration: none !important;
+    font-size: 2rem;
+    color: white;
+    background-color: #37383a !important;
+    height: 4rem !important;
+    width: 4rem !important;
+    border-radius: 50%;
+    padding-top: .5rem;
+    float: left;
+}
+
+.aboutLink:hover{
+    text-decoration: none !important;
+    color: #286BC0 !important;
+}
+
+.aboutCon{
+    color: #286BC0 !important;
+}
