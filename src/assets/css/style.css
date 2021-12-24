@@ -1,49 +1,3 @@
-.justify{
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.navPosition{
-    background-color: #286BC0 !important;
-}
-
-.navSideBorder{
-    border-left: 1px solid white;
-}
-
-.navTitle{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 600;
-    font-size: 2rem !important;
-}
-
-.navName{
-    text-decoration: none;
-    color: white !important;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding: 15px 30px 15px 30px !important;
-}
-
-.navName:hover{
-    text-decoration: none;
-    color: rgb(143, 0, 0) !important;
-    background-color: #6da4f2 !important;
-    transition: background-color 500ms linear;
-    
-}
-
-.navIcon{
-    font-size: 1.4rem;
-    font-weight: 100;
-    color: rgb(145, 145, 145);
-}
-
-.vavDisplay{
-    visibility: hidden;
-}
-
 .bg {
     background-image: url("../images/bg.jpeg");
     height: 100vh;
@@ -51,6 +5,52 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.navPosition{
+    background-color: #286BC0 !important;
+    /* text-decoration: none; */
+    /* height: ; */
+}
+
+.navSideBorder{
+    border-left: 1px solid white !important;
+}
+
+.navTitle{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2rem !important;
+    color: #ffffff;
+}
+
+.navName{
+    background-color: #286BC0 !important;
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+}
+
+.navName:hover{
+    text-decoration: none;
+    color: rgb(143, 0, 0) !important;
+    background-color: #6da4f2 !important;
+    transition: background-color 500ms linear;
+    /* padding: 15px 25px 15px 25px; */
+}
+
+.navDisplay{
+    text-decoration: none;
+    visibility: hidden;
 }
 
 .homeImg{

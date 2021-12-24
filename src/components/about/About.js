@@ -32,7 +32,7 @@ class About extends Component {
                             <br/>
                             <br/>
                             <h5 className='aboutParagraph justify'><FontAwesomeIcon className='aboutCon' icon={faEnvelope} /> rashedsadat27@gmail.com</h5>
-                            <h5 className='aboutParagraph justify'><FontAwesomeIcon className='aboutCon' icon={faPhoneAlt} /> ( +88 )01675 875 019</h5>
+                            <h5 className='aboutParagraph justify'><FontAwesomeIcon className='aboutCon' icon={faPhoneAlt} /> ( +88 ) 01675 875 019</h5>
                         </Col>
                         <Col lg={4} md={4} sm={12}>
                             <ProImage/>

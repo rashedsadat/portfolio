@@ -2,33 +2,40 @@ import React, { Component, Fragment } from 'react';
 import '../../assets/css/style.css';
 import '../../assets/css/bootstrap.min.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faAddressCard, faConciergeBell, faBriefcase, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
-import { faCommentAlt, faNewspaper, faAddressBook } from '@fortawesome/free-regular-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 class NavComponent extends Component {
+    constructor(){
+        super()
+        this.state = {
+            navTitle : "navTitle",
+            navDisplay : "navDisplay",
+            navName : "navName",
+            navSideBorder : "navSideBorder"
+        }
+    }
     render() {
         return (
             <Fragment>
-                <Navbar expand="lg" variant="dark">
+                <Navbar collapseOnSelect expand="lg" variant="dark">
                     <Container className='mt-4'>
-                        <Navbar.Brand href="#home" className='navTitle'>rSadat</Navbar.Brand>
+                        <Navbar.Brand><NavLink to="/" className={this.state.navTitle}>rSadat</NavLink></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav>
-                                <Nav.Link className='vavDisplay'></Nav.Link>
-                                <Nav.Link className='vavDisplay'></Nav.Link>
-                                <Nav.Link className='vavDisplay'></Nav.Link>
+                                <Nav.Link className={this.state.navDisplay} href=""></Nav.Link>
+                                <Nav.Link className={this.state.navDisplay} href=""></Nav.Link>
+                                <Nav.Link className={this.state.navDisplay} href=""></Nav.Link>
                             </Nav>
-                            <Nav className="navPosition" id="mySidenav">
-                                <Nav.Link href="" className='navName'>Home</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>About</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>Services</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>Portfolio</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>Testimonial</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>News</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>Contact</Nav.Link>
-                                <Nav.Link href="" className='navName navSideBorder'>Skills</Nav.Link>
+                            <Nav>
+                                <Nav.Link><NavLink className={this.state.navName} to="/">Home</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/about">About</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/service">Services</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/portfolio">Portfolio</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/testimonial">Testimonial</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/news">News</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/contact">Contact</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/skills">Skills</NavLink></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
