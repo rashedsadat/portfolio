@@ -110,12 +110,12 @@
 
 .aboutDownload{
     text-decoration: none !important;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
     color: white !important;
     font-family: 'Ubuntu', sans-serif;
     background-color: #286BC0 !important;
-    padding: .5rem 5rem .5rem 5rem;
+    padding: .7rem 3.3rem .7rem 3.3rem;
 }
 
 .aboutDownload:hover{
