@@ -59,12 +59,13 @@
 }
 
 .proImgButton{
+    /* position: relative; */
     height: 10vh;
     width: 100%;
     background-color: #286BC0 !important;
     border: none !important;
     border-radius: 0 !important;
-    font-size: 1.1rem !important;
+    font-size: 2rem !important;
     font-weight: 600 !important;
     font-family: 'Lato', sans-serif !important;
 }
@@ -145,4 +146,39 @@
 
 .aboutCon{
     color: #286BC0 !important;
+}
+
+.serviceContainer{
+    margin-top: 4rem !important;
+}
+
+.serviceCard{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    border: none !important;
+}
+
+.seviceIcon{
+    font-size: 3rem;
+    color: #286BC0;
+}
+
+.serviceheading{
+    font-size: 2.3rem !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500 !important;
+    color: #ffffff;
+}
+
+.serviceTitle{
+    font-size: 3rem !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600 !important;
+    color: #ffffff;
+}
+
+.serviceSubTitle{
+    font-size: 1rem !important;
+    font-family: 'Loto', sans-serif;
+    font-weight: 500 !important;
+    color: #ffffff !important;
 }

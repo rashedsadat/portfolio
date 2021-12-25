@@ -7,7 +7,9 @@ class ProImage extends Component {
         return (
             <Fragment>
                 <img src={propic} className='homeImg' />
-                <Button className='proImgButton'>Available For Immediate Hire</Button>
+                <Button className='proImgButton'>
+                    Available For Hire 
+                </Button>
             </Fragment>
         );
     }
