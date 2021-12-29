@@ -178,7 +178,90 @@
 
 .serviceSubTitle{
     font-size: 1rem !important;
-    font-family: 'Loto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500 !important;
     color: #ffffff !important;
+}
+
+.skillHeading{
+    font-size: .8rem;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.progressBar{
+    height: 5px !important;
+}
+
+.skillIcon{
+    color: #6da4f2;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skillNumber{
+    font-size: 2.3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.skillNumDes{
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+.skillMarginLower{
+    margin-top: 7.5rem !important;
+}
+
+.progressMargin{
+    margin-top: 2rem !important;
+}
+
+.skillMargin{
+    margin-top: 4rem;
+}
+
+.educationImg{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.eduYear{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #6da4f2;
+}
+
+.eduInstitute{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+}
+
+.edudepartment{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.edudescription{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #cccccc;
+    margin-bottom: 1.8rem;
+    margin-top: 15px;
 }

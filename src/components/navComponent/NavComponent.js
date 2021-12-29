@@ -33,7 +33,7 @@ class NavComponent extends Component {
                                 <Nav.Link><NavLink className={this.state.navName} to="/service">Services</NavLink></Nav.Link>
                                 <Nav.Link><NavLink className={this.state.navName} to="/portfolio">Portfolio</NavLink></Nav.Link>
                                 <Nav.Link><NavLink className={this.state.navName} to="/testimonial">Testimonial</NavLink></Nav.Link>
-                                <Nav.Link><NavLink className={this.state.navName} to="/news">News</NavLink></Nav.Link>
+                                <Nav.Link><NavLink className={this.state.navName} to="/education">Education</NavLink></Nav.Link>
                                 <Nav.Link><NavLink className={this.state.navName} to="/contact">Contact</NavLink></Nav.Link>
                                 <Nav.Link><NavLink className={this.state.navName} to="/skills">Skills</NavLink></Nav.Link>
                             </Nav>
